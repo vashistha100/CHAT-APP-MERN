@@ -11,7 +11,7 @@ function Login() {
 
         <form>
           <div>
-            <label className="'label p-2">
+            <label className="label p-2">
               <span className="text-base label-text">Username</span>
             </label>
             <input
