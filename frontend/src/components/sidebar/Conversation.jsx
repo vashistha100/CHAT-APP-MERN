@@ -1,8 +1,8 @@
 import React from "react";
-import useCoversation from "../../zustand/useCoverstation";
+import useConversation from "../../zustand/useConversation";
 
 function Conversation({ conversation, lastIdx }) {
-  const { selectedConversation, setSelectedConversation } = useCoversation();
+  const { selectedConversation, setSelectedConversation } = useConversation();
 
   const isSelected = selectedConversation?._id === conversation._id;
 

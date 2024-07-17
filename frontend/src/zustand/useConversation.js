@@ -1,11 +1,11 @@
 import React from 'react'
 import {create} from "zustand"
 
-const useCoversation = create((set)=>({
+const useConversation = create((set)=>({
     selectedConversation : null,
     setSelectedConversation : (selectedConversation)=>set({selectedConversation}),
     messages:[],
     setMessages:(messages)=>set({messages}),
 }))
 
-export default useCoversation
+export default useConversation
